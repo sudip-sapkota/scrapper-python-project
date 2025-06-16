@@ -3,7 +3,10 @@ import json
 import requests
 import csv
 
+for i in range(0,10,2):
+    print(i)
 
+print("hhh")
 url = "https://books.toscrape.com/"
 
 def book_details(url):
